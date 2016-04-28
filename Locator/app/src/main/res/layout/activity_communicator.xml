@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="main.java.com.iiitdmj.locator.util.Communicator"
+    android:scrollbarAlwaysDrawVerticalTrack="true">
+
+
+    <TextView
+        android:id="@+id/tvIsConnected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#FF0000"
+        android:textColor="#FFF"
+        android:textSize="18dp"
+        android:layout_marginBottom="5dp"
+        android:text="is connected?" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:id="@+id/tvX"
+                android:layout_centerHorizontal="true"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:text="X-Coordinate"/>
+            <EditText
+                android:id="@+id/etX"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvX"
+                android:inputType="text"
+                android:layout_centerHorizontal="true"/>
+
+            <View
+                android:layout_width="320dp"
+                android:layout_height="1dp"
+                android:background="#000000" />
+
+            <TextView
+                android:id="@+id/tvY"
+                android:layout_centerHorizontal="true"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:text="Y Coordinate"
+                android:layout_below="@id/etX"/>
+
+            <EditText
+                android:id="@+id/etY"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvX"
+                android:inputType="number"
+                android:layout_centerHorizontal="true"/>
+
+            <View
+                android:layout_width="320dp"
+                android:layout_height="1dp"
+                android:background="#000000" />
+
+            <TextView
+                android:id="@+id/tvOrientation"
+                android:layout_centerHorizontal="true"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:text="Orientation"
+                android:layout_below="@id/etY"/>
+
+
+            <EditText
+                android:id="@+id/etOrientation"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvOrientation"
+                android:inputType="number"
+                android:layout_centerHorizontal="true"/>
+
+            <View
+                android:layout_width="320dp"
+                android:layout_height="1dp"
+                android:background="#000000" />
+
+            <TextView
+                android:id="@+id/tvSignalStrength"
+                android:layout_centerHorizontal="true"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:text="Signal Strength"
+                android:layout_below="@id/etOrientation"/>
+
+            <EditText
+                android:id="@+id/etSignalStrength"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvSignalStrength"
+                android:layout_centerHorizontal="true"/>
+
+            <View
+                android:layout_width="320dp"
+                android:layout_height="1dp"
+                android:background="#000000" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/btnPost"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/etSignalStrength"
+        android:text="POST"/>
+
+
+</LinearLayout>

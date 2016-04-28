@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="main.java.com.iiitdmj.collegemap.Direction"
+    android:background="@drawable/background">
+
+    <include
+        android:id="@+id/toolBar"
+        layout="@layout/toolbar"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:id="@+id/imageView"
+        android:layout_below="@+id/toolBar"
+        android:src="@drawable/iiitdmapp"
+        android:scaleType="fitXY"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="N"
+        android:id="@+id/N"
+        android:layout_above="@+id/E"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/directionbutton"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="S"
+        android:id="@+id/S"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/N"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/directionbutton"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="W"
+        android:id="@+id/W"
+        android:layout_below="@+id/N"
+        android:layout_toStartOf="@+id/N"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/directionbutton"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="E"
+        android:id="@+id/E"
+        android:layout_above="@+id/S"
+        android:textColor="#FFFFFF"
+        android:layout_alignStart="@+id/NE"
+        android:background="@drawable/directionbutton"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="Stop"
+        android:id="@+id/stop"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/N"
+        android:layout_toEndOf="@+id/W"
+        android:background="@drawable/directionbutton"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="NE"
+        android:id="@+id/NE"
+        android:textColor="#FFFFFF"
+        android:layout_above="@+id/E"
+        android:layout_toEndOf="@+id/stop"
+        android:background="@drawable/directionbutton"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:textColor="#FFFFFF"
+        android:text="SE"
+        android:id="@+id/SE"
+        android:layout_below="@+id/E"
+        android:layout_alignStart="@+id/E"
+        android:background="@drawable/directionbutton"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="WS"
+        android:textColor="#FFFFFF"
+        android:id="@+id/WS"
+        android:layout_below="@+id/W"
+        android:layout_toStartOf="@+id/S"
+        android:background="@drawable/directionbutton"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="NW"
+        android:textColor="#FFFFFF"
+        android:id="@+id/NW"
+        android:layout_alignTop="@+id/N"
+        android:layout_alignStart="@+id/W"
+        android:background="@drawable/directionbutton"/>
+
+
+</RelativeLayout>

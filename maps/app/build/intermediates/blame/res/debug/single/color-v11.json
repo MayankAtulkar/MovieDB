@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "J:\\Android\\AndroidStudioProject\\maps\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "J:\\Android\\AndroidStudioProject\\maps\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "J:\\Android\\AndroidStudioProject\\maps\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "J:\\Android\\AndroidStudioProject\\maps\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+    }
+]

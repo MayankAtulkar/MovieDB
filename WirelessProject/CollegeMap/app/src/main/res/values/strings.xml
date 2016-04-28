@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">CollegeMap</string>
+    <string name="title_activity_maps">Map</string>
+    <color name="white">#3D08CF</color>
+    <string name="title_activity_initial_position">CollegeMap</string>
+</resources>
