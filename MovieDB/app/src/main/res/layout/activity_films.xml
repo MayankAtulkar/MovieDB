@@ -1,11 +1,11 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              xmlns:tools="http://schemas.android.com/tools"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
-              android:background="@drawable/background"
-              android:orientation="vertical"
-              android:weightSum="100"
-              tools:context="com.cooervo.filmography.controllers.activities.FilmsActivity">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context="zyloon.main.com.moviedb.controllers.activities.FilmsActivity">
 
 
     <LinearLayout
@@ -23,14 +23,14 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_margin="10dp"
-            android:layout_weight="30"/>
+            android:layout_weight="30" />
 
         <LinearLayout
-            android:orientation="vertical"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:weightSum="100"
-            android:layout_weight="70">
+            android:layout_weight="70"
+            android:orientation="vertical"
+            android:weightSum="100">
 
             <TextView
                 android:id="@+id/allFilmographyTextView"
@@ -38,20 +38,19 @@
                 android:layout_height="0dp"
                 android:layout_weight="25"
                 android:gravity="center_vertical"
-                android:textSize="15sp"
                 android:text="All filmography"
                 android:textColor="#a0FCC200"
-                android:typeface="sans"
-                />
+                android:textSize="15sp"
+                android:typeface="sans" />
 
             <TextView
                 android:id="@+id/actorNameLabel"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
+                android:layout_gravity="top"
                 android:layout_weight="75"
                 android:gravity="center_vertical"
-                android:textSize="30sp"
-                android:layout_gravity="top"/>
+                android:textSize="30sp" />
         </LinearLayout>
 
     </LinearLayout>
@@ -60,7 +59,6 @@
         android:id="@+id/filmsRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="80"
-        />
+        android:layout_weight="80" />
 
 </LinearLayout>

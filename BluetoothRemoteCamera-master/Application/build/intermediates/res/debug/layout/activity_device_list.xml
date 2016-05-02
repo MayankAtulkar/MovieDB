@@ -51,4 +51,4 @@
         android:text="@string/button_scan"
         />
 </LinearLayout>
-<!-- From: file:/E:/sdk/samples/android-23/connectivity/bluetooth/BluetoothCamera/Application/src/main/res/layout/activity_device_list.xml -->
+<!-- From: file:/J:/Android/AndroidStudioProject/BluetoothRemoteCamera-master/Application/src/main/res/layout/activity_device_list.xml -->

@@ -4,7 +4,7 @@
               android:layout_height="match_parent"
               android:background="@drawable/background"
               android:orientation="vertical"
-              tools:context="com.cooervo.filmography.controllers.activities.ActorsActivity">
+              tools:context=".controllers.activities.ActorsActivity">
 
 
     <android.support.v7.widget.RecyclerView

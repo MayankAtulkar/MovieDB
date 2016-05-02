@@ -12,9 +12,6 @@ import zyloon.main.com.moviedb.controllers.adapters.ActorsAdapter;
 import zyloon.main.com.moviedb.models.Actor;
 
 
-
-
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;

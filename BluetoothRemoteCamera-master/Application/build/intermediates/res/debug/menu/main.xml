@@ -19,4 +19,4 @@
           android:showAsAction="always"
           android:title="@string/sample_show_log" />
 </menu>
-<!-- From: file:/E:/sdk/samples/android-23/connectivity/bluetooth/BluetoothCamera/Application/src/main/res/menu/main.xml -->
+<!-- From: file:/J:/Android/AndroidStudioProject/BluetoothRemoteCamera-master/Application/src/main/res/menu/main.xml -->
